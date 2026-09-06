@@ -1,0 +1,3 @@
+
+import { SectionHeading } from "@/components/SectionHeading"; import { projectsEs } from "@/lib/data";
+export default function Page(){return <section className="section"><div className="container page-shell"><SectionHeading eyebrow="Projects" title="Proyectos de investigación" text="Líneas que conectan IA, análisis visual y datos científicos."/><div className="project-stack">{projectsEs.map((p,i)=><article className="project-card" key={p.title}><span>0{i+1}</span><div><h2>{p.title}</h2><p>{p.text}</p></div></article>)}</div></div></section>}

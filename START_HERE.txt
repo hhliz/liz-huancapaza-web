@@ -1,0 +1,11 @@
+1) Abra una terminal dentro de esta carpeta.
+2) Ejecute: npm install
+3) Ejecute: npm run dev
+4) Abra: http://localhost:3000
+
+Si ya instaló antes dependencias en esta carpeta, puede hacer una limpieza:
+rm -rf node_modules package-lock.json .next
+npm install
+npm run dev
+
+Recomendado: Node.js 20 LTS.
